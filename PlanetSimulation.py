@@ -140,7 +140,8 @@ def run():
             planet.update_position(planets)
             planet.draw(WIN)
             planet.show(WIN, y)
-        pygame.display.update()
+            pygame.display.update()
+    print("END")
     pygame.quit()
 
 def start():
